@@ -1,0 +1,1 @@
+This bug occurs when using the Expo DocumentPicker API on Android.  When selecting a file, the `DocumentPicker.getDocumentAsync()` function sometimes returns an empty uri instead of the file's actual URI, leading to errors when trying to access the file.
